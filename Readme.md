@@ -51,7 +51,7 @@ Additional dependencies are specified in individual scripts.
 	 PICRUSt2-
 		picrust2_pipeline.sh
 
-	 R_Analyses-
+	 Statistical Analyses in R-
 		alphadiversity.R
    		betadiversity.R
    		Taxa.R
