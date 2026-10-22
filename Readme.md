@@ -42,16 +42,16 @@ Additional dependencies are specified in individual scripts.
 
 
 
-PMDD-Microbiome/
+
 	README.md
 	
-	QIIME2/
+	QIIME2-
  		qiime2_pipeline.sh
 
-	 PICRUSt2/
+	 PICRUSt2-
 		picrust2_pipeline.sh
 
-	 R_Analyses/
+	 R_Analyses-
 		alphadiversity.R
    		betadiversity.R
    		Taxa.R
@@ -62,7 +62,7 @@ PMDD-Microbiome/
 		KEGG.R
 		
 		
-	 Figures/
+	 Figures-
 	 	SuppFig1.R
 		Figure1.R
 		Figure2.R
