@@ -4,7 +4,6 @@ library(dplyr)
 library(tidyr)
 library(ggplot2)
 
-# Rebuild plotting data from corrected metadata
 # Assumes PMDD is coded C/P and Phase is coded F/L.
 df_long <- md |>
   select(
