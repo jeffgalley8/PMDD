@@ -499,7 +499,7 @@ library(ANCOMBC)
 library(dplyr)
 
 # ------------------------------------------------------------
-# 1. Import genus counts and corrected metadata
+# 1. Import genus counts and metadata
 # ------------------------------------------------------------
 
 GENUS_TSV <- "genus_table_export/genus_table.tsv"
