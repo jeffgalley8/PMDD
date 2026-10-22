@@ -225,7 +225,6 @@ extract_psych_taxa <- function(fit, psych, interaction = FALSE) {
 
 summary_rows <- list()
 for (pv in psych_vars) {
-  cat("Running psychometric taxa main effect: ", pv, "\n", sep = "")
   fit_main <- run_psych_taxa(ps_psych, pv, interaction = FALSE)
   saveRDS(fit_main, file.path(TAXADIR, paste0("ancombc2_psych_", pv, ".rds")))
   main <- extract_psych_taxa(fit_main, pv, interaction = FALSE)
@@ -237,7 +236,6 @@ for (pv in psych_vars) {
     n_p05 = nrow(main$nominal), n_FDR = nrow(main$fdr)
   )
 
-  cat("Running psychometric x PMDD taxa interaction: ", pv, "\n", sep = "")
   fit_int <- run_psych_taxa(ps_psych, pv, interaction = TRUE)
   saveRDS(fit_int, file.path(TAXADIR, paste0("ancombc2_psych_PMDD_", pv, ".rds")))
   int <- extract_psych_taxa(fit_int, pv, interaction = TRUE)
